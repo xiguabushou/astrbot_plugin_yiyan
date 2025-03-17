@@ -9,6 +9,7 @@
 /stime 8:30
 ~~~
 
-warning
+<font color=yellow>warning</font>
+
 ~~~
 只能存储一次任务
