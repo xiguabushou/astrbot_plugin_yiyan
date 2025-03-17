@@ -1,9 +1,14 @@
-# helloworld
+####  提示
 
-AstrBot 插件模板
+使用命令
 
-A template plugin for AstrBot plugin feature
+~~~
+命令格式
+/stime HH:MM
+#例如设置每天8：30的任务
+/stime 8:30
+~~~
 
-# 支持
-
-[帮助文档](https://astrbot.app)
+warning
+~~~
+只能存储一次任务
