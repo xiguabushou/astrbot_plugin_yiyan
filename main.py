@@ -9,7 +9,7 @@ import requests
 # 假设有一个地方存储用户的定时任务设置
 data_path = "data/plugins/astrbot_plugin_yiyan/scheduled_greetings.json"
 
-@register("morning_greeting", "AuthorName", "设置定时任务在指定时间发送问候语", "1.0.0", "https://github.com/your-repo/morning_greeting")
+@register("yiyan", "lxx", "一言的个人插件", "1.0.0", "https://github.com/xiguabushou/astrbot_plugin_yiyan")
 class MorningGreetingPlugin(Star):
     def __init__(self, context: Context, config: dict = None):  # 提供config参数的默认值
         super().__init__(context)
